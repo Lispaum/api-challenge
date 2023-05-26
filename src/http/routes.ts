@@ -14,6 +14,6 @@ export async function appRoutes(app: FastifyInstance) {
   /** Authenticated **/
   app.get('/me', { onRequest: [verifyJwt] }, profile)
   app.get('/all', { onRequest: [verifyJwt] }, listProfiles)
-  app.patch('/update', { onRequest: [verifyJwt] }, updateProfile)
+  app.put('/update', { onRequest: [verifyJwt] }, updateProfile)
   app.delete('/delete', { onRequest: [verifyJwt] }, deleteProfile)
 }
