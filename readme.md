@@ -36,7 +36,7 @@ Você pode utilizar quaisquer bibliotecas e ferramentas que desejar, desde que a
 
 ### dependecies list
 
-`npm init -y  
-npm i typescript @types/node tsx tsup eslint @rocketseat/eslint-config prisma @types/bcryptjs vitest vite-tsconfig-paths supertest @types/supertest npm-run-all -D  
-npm i fastify @fastify/jwt dotenv zod @prisma/client bcryptjs  
-npx tsc --init`
+`npm init -y`  
+`npm i typescript @types/node tsx tsup eslint @rocketseat/eslint-config prisma @types/bcryptjs vitest vite-tsconfig-paths supertest @types/supertest npm-run-all -D`  
+`npm i fastify @fastify/jwt dotenv zod @prisma/client bcryptjs`  
+`npx tsc --init`
