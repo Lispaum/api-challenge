@@ -7,12 +7,13 @@ npm run test:coverage
 ### Requisitos:
 
 [x] No banco, ter uma tabela 'usuario' com os campos:
-id int  
-nome string  
-email string  
-senha string  
-telefone string  
-dataCriacao date
+
+id _int_  
+nome _string_  
+email _string_  
+senha _string_  
+telefone _string_  
+dataCriacao _date_
 
 [x] É necessário implementar as operações de CRUD:  
 [x] A operação de CREATE (POST) deve validar os campos do usuário, verificar se o email já está cadastrado e se a senha tem pelo menos 8 caracteres  
@@ -35,7 +36,7 @@ Você pode utilizar quaisquer bibliotecas e ferramentas que desejar, desde que a
 
 ### dependecies list
 
-npm init -y  
+`npm init -y  
 npm i typescript @types/node tsx tsup eslint @rocketseat/eslint-config prisma @types/bcryptjs vitest vite-tsconfig-paths supertest @types/supertest npm-run-all -D  
 npm i fastify @fastify/jwt dotenv zod @prisma/client bcryptjs  
-npx tsc --init
+npx tsc --init`
