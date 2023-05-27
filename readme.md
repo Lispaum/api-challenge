@@ -1,8 +1,8 @@
 ### To run tests:
 
-docker compose up -d
+`docker compose up -d`
 
-npm run test:coverage
+`npm run test:coverage`
 
 ### Requisitos:
 
